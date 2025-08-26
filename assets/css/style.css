@@ -95,6 +95,15 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#student-discount {
+    color: white;
+    background-color: var(--highlight-color);
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 /* Game library cards */
 
 #new-games .card,
@@ -151,6 +160,14 @@ h2 {
 } */
 
 /* Media queries */
+
+/* Small devices (phones, up to 768px) */
+@media screen and (max-width: 768px) {
+    /* Make table text small enough to stop overflow */
+    #events-table {
+        font-size: 0.7rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
